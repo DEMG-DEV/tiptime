@@ -29,6 +29,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    buildFeatures {
+        viewBinding = true
+    }
+    buildToolsVersion '30.0.2'
+    compileSdkVersion 31
 }
 
 dependencies {
